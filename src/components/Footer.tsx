@@ -62,6 +62,9 @@ const Footer = () => {
                     <p className="text-white/50 text-sm">
                         © {new Date().getFullYear()} Swami Dayal UMV. All rights reserved.
                     </p>
+                    <p className="text-white/50 text-sm mt-1">
+                        Built by <a href="https://www.instagram.com/axoneura/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer" className="hover:text-cta transition-colors">Axoneura</a>
+                    </p>
                 </div>
             </div>
         </footer>
