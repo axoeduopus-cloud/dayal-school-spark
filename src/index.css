@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
 
 @layer base {
   :root {
@@ -15,46 +15,46 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 25% 15%;
 
-    /* Deep navy blue - trustworthy, educational */
-    --primary: 215 70% 28%;
+    /* Deep Navy - Trustworthy & Established */
+    --primary: 220 35% 18%;
     --primary-foreground: 0 0% 100%;
 
-    /* Soft blue-gray for secondary surfaces */
-    --secondary: 210 30% 96%;
-    --secondary-foreground: 220 25% 15%;
+    /* Soft Off-White for secondary surfaces */
+    --secondary: 210 20% 98%;
+    --secondary-foreground: 220 35% 18%;
 
-    /* Muted backgrounds */
-    --muted: 210 20% 97%;
-    --muted-foreground: 220 15% 45%;
+    /* Muted backgrounds - Warm Gray */
+    --muted: 220 10% 96%;
+    --muted-foreground: 220 15% 40%;
 
-    /* Teal accent for highlights */
-    --accent: 180 55% 40%;
+    /* Refined Teal - Growth & Balance */
+    --accent: 175 40% 45%;
     --accent-foreground: 0 0% 100%;
 
-    /* Golden yellow for CTAs */
-    --cta: 45 95% 50%;
-    --cta-foreground: 220 25% 15%;
+    /* Muted Gold - Excellence without aggression */
+    --cta: 35 50% 50%;
+    --cta-foreground: 0 0% 100%;
 
-    /* Success teal */
-    --success: 165 60% 42%;
+    /* Success - Calm Green */
+    --success: 150 40% 45%;
     --success-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 98%;
 
     --border: 220 15% 90%;
     --input: 220 15% 90%;
-    --ring: 215 70% 28%;
+    --ring: 220 35% 18%;
 
-    --radius: 0.5rem;
+    --radius: 1.5rem;
 
-    /* Hero gradient */
-    --hero-gradient: linear-gradient(135deg, hsl(215 70% 28%) 0%, hsl(200 60% 35%) 100%);
-    --hero-overlay: linear-gradient(to bottom, hsl(220 25% 15% / 0.5), hsl(220 25% 15% / 0.7));
+    /* Hero gradient - Subtle & Deep */
+    --hero-gradient: linear-gradient(135deg, hsl(220 35% 18%) 0%, hsl(220 30% 25%) 100%);
+    --hero-overlay: linear-gradient(to bottom, hsl(220 35% 15% / 0.8), hsl(220 35% 15% / 0.6));
 
     /* Soft section backgrounds */
-    --section-light: 210 30% 98%;
-    --section-alt: 45 30% 97%;
+    --section-light: 210 20% 99%;
+    --section-alt: 35 30% 98%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -90,7 +90,7 @@
   }
 
   .heading-primary {
-    @apply text-2xl font-bold tracking-tight text-foreground md:text-3xl lg:text-4xl;
+    @apply text-2xl font-bold font-heading tracking-tight text-foreground md:text-3xl lg:text-4xl;
   }
 
   .heading-secondary {
