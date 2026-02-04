@@ -3,16 +3,18 @@ import { motion } from "framer-motion";
 
 const leaders = [
     {
-        name: "Veneeta Pandey",
+        name: "Vineeta Pandey",
         role: "Principal",
-        experience: "10+ years in education",
+        experience: "25+ years in education",
+        experienceDescription: "With over 25 years of dedicated service in education, Mrs. Vineeta Pandey has transformed countless young minds through her passion for holistic learning and commitment to academic excellence.",
         image: "/images/faculty/principal.jpg",
         quote: "True education is not just about filling minds with knowledge, but igniting hearts with wisdom and values."
     },
     {
         name: "Krishn Kumar Pandey (K.K. Pandey)",
         role: "Manager",
-        experience: "15+ years in education",
+        experience: "30+ years in education",
+        experienceDescription: "With more than 30 years of experience in educational management, Mr. K.K. Pandey has been instrumental in building strong institutional foundations and fostering an environment of growth and discipline.",
         image: "/images/faculty/manager.jpg",
         quote: "The foundation of a great nation is built in the classrooms of its schools."
     },
@@ -80,6 +82,9 @@ const Faculty = () => {
                                         "{leader.quote}"
                                     </p>
                                 </div>
+
+                                {/* Experience Description */}
+                                <p className="text-muted-foreground text-sm mt-4 leading-relaxed">{leader.experienceDescription}</p>
                             </div>
                         </motion.div>
                     ))}
