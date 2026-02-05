@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Youtube, Facebook, Instagram } from "lucide-react";
 
 const Footer = () => {
     const scrollToSection = (id: string) => {
@@ -54,6 +54,37 @@ const Footer = () => {
                                 </a>
                             </li>
                         </ul>
+
+                        {/* Social Media Links */}
+                        <div className="mt-4 flex items-center gap-4">
+                            <a
+                                href="https://youtube.com/@swamidayal-d4v?si=ee0FDgpjFdYrYA_x"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-white/70 hover:text-red-500 transition-colors"
+                                aria-label="YouTube"
+                            >
+                                <Youtube className="w-5 h-5" />
+                            </a>
+                            <a
+                                href="https://www.facebook.com/profile.php?id=61587717350948&mibextid=ZbWKwL"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-white/70 hover:text-blue-500 transition-colors"
+                                aria-label="Facebook"
+                            >
+                                <Facebook className="w-5 h-5" />
+                            </a>
+                            <a
+                                href="https://www.instagram.com/swamidayalumv?igsh=bm00ZW91ajR3aDBu"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-white/70 hover:text-pink-500 transition-colors"
+                                aria-label="Instagram"
+                            >
+                                <Instagram className="w-5 h-5" />
+                            </a>
+                        </div>
                     </div>
                 </div>
 
