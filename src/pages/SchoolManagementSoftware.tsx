@@ -90,7 +90,7 @@ const SchoolManagementSoftware = () => {
                     className="border-dashed"
                   >
                     <a
-                      href="https://www.instagram.com/axoneura/"
+                      href="https://wa.me/917015964277"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
