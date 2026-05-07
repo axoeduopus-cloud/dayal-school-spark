@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Youtube, Facebook, Instagram } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     const scrollToSection = (id: string) => {
@@ -36,6 +37,14 @@ const Footer = () => {
                                     </button>
                                 </li>
                             ))}
+                            <li>
+                                <Link
+                                    to="/school-management-software"
+                                    className="text-white/70 hover:text-cta transition-colors text-sm"
+                                >
+                                    School Software
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 
