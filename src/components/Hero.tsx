@@ -89,9 +89,9 @@ const Hero = () => {
                         </Button>
                         <Button
                             size="lg"
-                            variant="outline"
+                            variant="default"
                             onClick={scrollToContact}
-                            className="bg-white hover:bg-white/90 text-primary border-0 h-14 px-8 text-base transition-transform hover:-translate-y-1 rounded-full"
+                            className="bg-white/95 hover:bg-white text-primary font-semibold h-14 px-8 text-base shadow-md transition-transform hover:-translate-y-1 rounded-full border border-white/60"
                         >
                             <Phone className="w-4 h-4 mr-2" />
                             Contact School
