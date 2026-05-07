@@ -76,7 +76,7 @@ const SchoolManagementSoftware = () => {
                     className="bg-cta text-cta-foreground hover:bg-cta/90 shadow-md"
                   >
                     <a
-                      href="https://eduopus.com/"
+                      href="https://axoneura.in/eduopus"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
